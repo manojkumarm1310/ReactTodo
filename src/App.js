@@ -19,7 +19,7 @@ const App = () => {
 
           <Route path="/todo/:id" element={<TaskDetails />} />
 
-          <Route path="*" element={<PageNotFound />}/>
+          <Route path="/pageNotFound" element={<PageNotFound />}/>
         </Routes>
       </div>
     </DataProvider>
