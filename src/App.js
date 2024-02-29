@@ -12,7 +12,7 @@ const App = () => {
     <DataProvider>
       <div>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/ReactTodo" element={<Home />} />
           <Route path="/addTodo" element={<AddTodo />} />
 
           <Route path="/edit" element={<EditTodo />} />
