@@ -109,7 +109,7 @@ const FormInputs = ({
       setTaskName("");
       setTaskDescription("");
       setEmptyInputError(false);
-      navigate("/");
+      navigate("/ReactTodo/");
 
       setAddNotificationTitle(taskName);
       setAddNotification(true);
