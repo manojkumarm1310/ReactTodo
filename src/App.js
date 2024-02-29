@@ -13,11 +13,11 @@ const App = () => {
       <div>
         <Routes>
           <Route path="/ReactTodo" element={<Home />} />
-          <Route path="/addTodo" element={<AddTodo />} />
+          <Route path="/ReactTodo/addTodo" element={<AddTodo />} />
 
-          <Route path="/edit" element={<EditTodo />} />
+          <Route path="/ReactTodo/edit" element={<EditTodo />} />
 
-          <Route path="/todo/:id" element={<TaskDetails />} />
+          <Route path="ReactTodo/todo/:id" element={<TaskDetails />} />
         </Routes>
       </div>
     </DataProvider>
