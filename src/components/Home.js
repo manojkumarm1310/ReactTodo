@@ -67,7 +67,7 @@ const Home = () => {
             </div>
           )}
           <div
-            onClick={() => navigate("/addTodo")}
+            onClick={() => navigate("/ReactTodo/addTodo")}
             className=" fixed bottom-10 w-16 h-16 max-sm:w-14 max-sm:h-14 cursor-pointer bg-white grid place-items-center rounded-full left-[50%] -translate-x-[50%]"
           >
             <RxPlus className=" text-4xl max-sm:text-3xl plusIcon" />
