@@ -104,7 +104,7 @@ const TasksOptions = ({
           }}
         >
           <Link
-            to={"/edit"}
+            to={"/ReactTodo/edit"}
             className=" max-sm:text-sm flex items-center gap-2 cursor-pointer hover:bg-slate-100 py-3  px-2 rounded-md"
           >
             <RiEdit2Fill className=" text-2xl max-sm:text-xl text-slate-700" />
@@ -127,7 +127,7 @@ const TasksOptions = ({
         </li>
         <li>
           <Link
-            to={`/todo/${val.id}`}
+            to={`/ReactTodo/todo/${val.id}`}
             className=" max-sm:text-sm flex items-center gap-2 cursor-pointer hover:bg-slate-100 py-3 px-2 rounded-md"
           >
             <BiTask className=" text-2xl max-sm:text-xl text-slate-700" />
