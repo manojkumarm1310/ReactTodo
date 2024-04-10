@@ -63,7 +63,7 @@ const TaskDetails = () => {
 
               <div className="max-sm:text-base font-semibold flex gap-4 items-center pt-4 pb-3">
                 <h2 className="text-left text-lg max-sm:text-sm min-w-28">
-                  Catagory:
+                  Category:
                 </h2>
 
                 <div className="flex flex-wrap gap-3 max-sm:gap-2">

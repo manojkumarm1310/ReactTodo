@@ -58,7 +58,7 @@ const DisplayTodos = ({
         <div>
           <div className="max-md:container border text-white max-w-[700px] mt-10 max-sm:mt-2 m-auto rounded-3xl bg-gradient-to-r from-purple-500 to-purple-700 p-10 max-sm:p-5">
             <h1 className=" text-2xl max-sm:text-base font-medium">
-              Progress summery
+              Progress summary
             </h1>
             <h3 className=" max-sm:text-xs">{`${data.length} ${data.length > 1 ? "Tasks" : "Task"}`}</h3>
 
